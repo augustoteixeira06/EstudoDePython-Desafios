@@ -1,3 +1,5 @@
+# Programa para ler vários números inteiros, calcular a média entre eles e mostrar
+# qual o maior e o menor valor.
 resp = 'S'
 soma = cont = maior = menor = 0
 
