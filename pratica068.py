@@ -1,7 +1,6 @@
 # Programa de jogo par ou ímpar com o computador. O jogo será interrompido quando o jogador
 # perder, mostrando o total de vitórias consecutivas do jogador no final.
-
- random import randint
+from random import randint
 v = 0
 while True:
     jogador = int(input('Digite um número para jogar: '))
