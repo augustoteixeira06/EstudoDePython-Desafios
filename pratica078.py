@@ -17,7 +17,6 @@ for c in range(0, 5):
     # o status ao valor correspondente.
 print('='*50)
 print(f'Os valores digitados foram {lista} ')
-
 print(f'O maior número é {maior}, localizado nas posições ', end='')
 for p, n in enumerate(lista):
     if n == maior:
@@ -27,4 +26,3 @@ print(f'O menor número é {menor}, localizado nas posições ', end='')
 for p, n in enumerate(lista):
     if n == menor:
         print(f'{p}...', end=' ')
-print()
